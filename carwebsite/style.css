@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: #FCFDFC;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Play', sans-serif;
+}
+h2{
+	position: absolute;
+	left: 20px;
+	top: 10px;
+}
+h3{
+	position: absolute;
+	left: 0;
+	top: 50%;
+	font-size: 2.5rem;
+	transform: translateX(-6rem) rotate(90deg);
+
+}
+.nav{
+	position: absolute;
+	display: flex;
+	right: 1rem;
+	top: 14px;
+}
+.nav div{
+	position: relative;
+	margin: 0 1rem;
+	font-size: 1rem;
+
+}
+h1{
+	position: absolute;
+left: 25%;
+top: 24%;
+
+font-family: Play;
+font-weight: bold;
+font-size: 150px;
+line-height: 174px;
+
+color: rgba(78, 80, 101, 0.1);
+}
+.info{
+	position: absolute;
+	bottom: 1rem;
+	display: flex;
+
+}
+.details{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 1rem 2rem;
+	width: 10rem;
+	height: 5rem;
+	text-align: center;
+	bottom: 0;
+}
+
+.details img{
+	width: 3rem;
+}
+.text{
+	position: absolute;
+	right: 3rem;
+	width: 9rem;
+}
+.text p{
+	font-size: 0.6rem;
+	font-family: Play;
+font-weight: normal;
+line-height: 17px;
+text-align: justify;
+
+color: #8C8C8C;
+}
+.text span{
+	width: 4rem;
+	height: 2rem;
+	padding: 5px;
+	background: #505267;
+	font-family: Play;
+font-size: 1rem;
+line-height: 28px;
+margin: 1.5rem;
+cursor: pointer;
+
+color: #FCFDFC;
+
+}
